@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSdropper - DragItems</title>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/dropper.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="child" class="items-frame">
+    <div class="buttons">
+        <ul>
+            <li><span class="btn close"></span></li>
+            <li><span class="btn minimize"></span></li>
+            <li><span class="btn maximize"></span></li>
+        </ul>
+    </div>
+
+    <ul class="files">
+        <li id="file-0" draggable="true">
+            <img src="img/icons/pdf.png" />
+            <p class="name">Document.pdf</p>
+        </li>
+        <li id="file-1" draggable="true">
+            <img src="img/icons/pdf.png" />
+            <p class="name">Scan.pdf</p>
+        </li>
+        <li id="file-2" draggable="true">
+            <img src="img/icons/pdf.png" />
+            <p class="name">Secret.pdf</p>
+        </li>
+    </ul>
+
+    <script src="js/dropper.js"></script>
+
+</body>
+</html>

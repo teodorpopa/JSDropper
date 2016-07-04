@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSdropper</title>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/dropper.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="parent" class="parent-frame">
+
+    <div class="container">
+        <h1>Drag items to the Drop Zone</h1>
+        <iframe class="drag-items dropper" id="dragItemsFrame" src="items.html"></iframe>
+        <p class="super-big">&rarr;</p>
+        <iframe class="drop-zone dropper" id="dropZoneFrame" src="drop.html"></iframe>
+    </div>
+
+    <div class="item"></div>
+
+    <script src="js/dropper.js"></script>
+
+</body>
+</html>
